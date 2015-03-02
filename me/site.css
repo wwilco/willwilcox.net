@@ -1,0 +1,244 @@
+body {
+  background-image: url('pics/finalattackXXX.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-family: helvetica;
+  color: white;
+  text-align: center;
+  font-size: ;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to {opacity:1; }}
+@-moz-keyframes fadeIn { from { opacity:0; } to {opacity:1; }}
+@keyframes fadeIn { from { opacity:0; } to {opacity:1; }}
+
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+/*.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}*/
+.fade-in.header {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+.box {
+  /*position: relative;*/
+  /*margin: 10px;*/
+  /*border: 1px solid red;*/
+  background: #3DA6FC;
+  border-radius: 15px;
+  display:inline-block;
+
+}
+/*.one {
+  float: left;
+  margin-top: 5%;
+}*/
+
+.two {
+  position: absolute;
+  margin-left:40%;
+  top: 43%;
+}
+
+.three {
+  position: absolute;
+  margin-left:60%;
+
+  top: 43%;
+}
+
+
+/*logo*/
+
+.header {
+  text-align: left;
+  margin-left: 57px;
+  margin-top: 65px;
+  position: absolute;
+
+
+  /*width: 100%;
+  height: 20px;
+  padding-top: 20px;
+  position: fixed;*/
+
+}
+h1 {
+  font-size: 35px;
+}
+.header h1 h4 {
+  float: right;
+  margin: 0 auto;
+  padding: 0px;
+}
+.header li {
+  display: inline-block;
+  font-family: verdana;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+.header li p {
+  float: right;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+
+
+.modal-project-body div {
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+
+}
+.modal-project-body li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+}
+.modal-project-body ul{
+  text-align: center;
+}
+.modal-project-body p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#contact1 {
+  background-image: url("pics2/fb.png");
+  overflow: hidden;
+  background-size: cover;
+}
+#contact2 {
+  background-image: url("pics2/instagram.png");
+  overflow: hidden;
+  background-size: cover;
+}
+#contact3 {
+  background-image: url("pics2/twitterlogo.png");
+  overflow: hidden;
+  background-size: cover;
+}
+#contact4 {
+  background-image: url("pics2/githublogo.png");
+  overflow: hidden;
+  background-size: cover;
+}
+#contact5 {
+  background-image: url("pics2/LinkedInlogo.png");
+  overflow: hidden;
+  background-size: cover;
+}
+#contact6 {
+  background-image: url("pics2/Googleplus.png");
+  overflow: hidden;
+  background-size: cover;
+}
+
+/*h2 {
+  font-size: 40px;
+  color: rgba(0,0,0,.9);
+  font-family: verdana;
+
+}
+.footer h2 h4 {
+  float: left;
+  margin: 0 auto;
+  padding: 0px;
+}
+.footer li {
+  display: inline-block;
+  font-family: verdana;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+.footer li p {
+  float: right;
+
+  margin: 0 auto;
+  padding: 0px;
+}*/
+
+
+/*#intro, #contact, #projects {
+  position: relative;
+  margin-left: 1000px;
+  margin-top: 100px;
+  color: red;
+  background-color: #3DA6FC;
+  text-align: center;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#haha {
+  color: red;
+  width: 1000px;
+  height: 100px;
+  position: relative;
+}*/
+
+
+/*old animation*/
+/*div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  -webkit-animation: myfirst 5s;
+  animation: myfirst 5s;
+}
+
+
+@-webkit-keyframes myfirst {
+  0%   {background:red; left:0px; top:0px;}
+  25%  {background:yellow; left:200px; top:0px;}
+  50%  {background:blue; left:200px; top:200px;}
+  75%  {background:green; left:0px; top:200px;}
+  100% {background:red; left:0px; top:0px;}
+}*/
+
+
+
+
+/*#mePic, img {
+  border-radius: 350px;
+  height: 35%;
+  margin-top: 16.5%;
+  margin-left: 11.5%;
+  position: fixed;
+}*/
